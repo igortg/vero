@@ -1,5 +1,7 @@
 #! bin/zsh
 
+# Automatically download and activate Vero when using Oh My Zsh!
+
 source "$HOME/.zshrc"
 
 function error() {
