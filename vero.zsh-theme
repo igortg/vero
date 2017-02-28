@@ -1,4 +1,7 @@
-# oh-my-zsh vero Theme
+# Vero
+# Based on Bureau and Geometry
+# Bureau: https://github.com/robbyrussel/oh-my-zsh/blob/master/themes/bureau.zsh-theme
+# Geometry: https://github/com/frmendes/geometry
 
 ### NVM <nvm 4.2.6>
 
