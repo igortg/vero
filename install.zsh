@@ -18,8 +18,6 @@ function message() {
 }
 
 REMOTE="https://github.com/raindeer44/vero"
-THEME_PRE="$ZSH_CUSTOM/themes/vero"
-THEME="$THEME_PRE/vero.zsh-theme"
 
 # Create custom themes folder if it doesn't yet exist
 [ -d $ZSH_CUSTOM/themes ] || mkdir $ZSH_CUSTOM/themes
@@ -27,7 +25,7 @@ THEME="$THEME_PRE/vero.zsh-theme"
 cd $ZSH_CUSTOM/themes
 
 if $(command -v git >/dev/null 2>&1); then
-    git clone https://github.com/raindeer44/vero
+    git clone $REMOTE
 else
     error "Git is unavailable! Please (re)install Git before installing Vero"
 fi
