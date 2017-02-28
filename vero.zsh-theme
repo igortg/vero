@@ -3,13 +3,11 @@
 # Bureau: https://github.com/robbyrussel/oh-my-zsh/blob/master/themes/bureau.zsh-theme
 # Geometry: https://github/com/frmendes/geometry
 
-### NVM <nvm 4.2.6>
-
+### NVM ( ⬡ 4.2.6 )
 ZSH_THEME_NVM_PROMPT_PREFIX="( %B⬡%b "
 ZSH_THEME_NVM_PROMPT_SUFFIX=" )"
 
-### Git <±master ▾●>
-
+### Git ( master ▾● )
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%}( "
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} )"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg_bold[green]%}✓%{$reset_color%}"
