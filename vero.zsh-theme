@@ -5,13 +5,13 @@
 
 ### NVM <nvm 4.2.6>
 
-ZSH_THEME_NVM_PROMPT_PREFIX="<nvm "
-ZSH_THEME_NVM_PROMPT_SUFFIX=">"
+ZSH_THEME_NVM_PROMPT_PREFIX="( %B⬡%b "
+ZSH_THEME_NVM_PROMPT_SUFFIX=" )"
 
 ### Git <±master ▾●>
 
-ZSH_THEME_GIT_PROMPT_PREFIX="<%{$fg_bold[cyan]%}±%{$reset_color%}%{$fg_bold[white]%}"
-ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}>"
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%}( "
+ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} )"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg_bold[green]%}✓%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_AHEAD="%{$fg[cyan]%}▴%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_BEHIND="%{$fg[magenta]%}▾%{$reset_color%}"
